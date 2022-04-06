@@ -1,0 +1,26 @@
+header {
+    font-weight: bold;
+    font-size: x-large;
+    padding-bottom: 12px;
+}
+button {
+    margin-top: 12px;
+    background-color: blue;
+    color: white;
+}
+
+/* Styles the <div> that contains the slider */
+div#bac-graphic {
+    background-image: url("bac-symptoms.png");
+    width: 1000px;
+    height: 319px;
+    position: relative;
+}
+
+/* Styles the slider inside the <div> */
+input[type=range] {
+    width: 800px;
+    left: 25px;
+    top: 163px;
+    position: absolute;
+}

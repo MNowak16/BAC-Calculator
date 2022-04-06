@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>BAC Calculator</title>
+    <link rel="stylesheet" href="bac.css">
+</head>
+<body>
+   <header>Megan's BAC Calculator</header>
+    <form>
+        <label for="weight">Weight (Pounds): </label><br>
+        <input id="weight" value="0" type="number" min="0" max="500" step="0.5" required>
+        <br>
+
+        <label for="beers">Number of Beers Consumed: </label><br>
+        <input id="beers" value="0" type="number" min="0" max="50" step="1" required>
+        <br>
+
+        <label for="wine">Glasses of Wine Consumed: </label><br>
+        <input id="wine" value="0" type="number" min="0" max="50" step="1" required>
+        <br>
+
+        <label for="liquor">Ounces of Liquor Consumed: </label><br>
+        <input id="liquor" value="0" type="number" min="0" max="50" step="1" required>
+        <br>
+
+        <label for="hours">Hours Since First Drink: </label><br>
+        <input id="hours" value="0" type="number" min="0" max="24" step="1" required>
+        <br>
+
+        <button>Calculate</button>
+
+        <p id="BAC"></p>
+
+        <div id="bac-graphic">
+            <input id="slider" value="0" type="range" min="0" max="0.5" step="0.01">
+        </div>
+    </form>
+
+    <script defer src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script defer src="code.js"></script>
+</body>
+</html>
