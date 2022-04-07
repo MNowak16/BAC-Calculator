@@ -1,3 +1,6 @@
+body {
+    font-family: Arial;
+}
 header {
     font-weight: bold;
     font-size: x-large;
@@ -7,6 +10,11 @@ button {
     margin-top: 12px;
     background-color: blue;
     color: white;
+    font-size: medium;
+}
+
+input {
+    margin-bottom: 12px;
 }
 
 /* Styles the <div> that contains the slider */
